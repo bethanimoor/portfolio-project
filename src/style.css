@@ -1,0 +1,48 @@
+:root {
+  --primary-background-color: #7fa99b;
+  --primary-text-color: #384a51;
+  --font-family: helvetica, sans-serif, arial;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  font-family: var(--font-family);
+  height: 100vh;
+}
+
+h1,
+h2 {
+  color: var(--primary-text-color);
+}
+
+h1 {
+  margin: 20px px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: var(--primary-text-color);
+}
+
+a:visited {
+  color: var(--primary-text-color);
+}
+
+.taskbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.taskbar-link {
+  padding: 0px 15px 50px;
+  color: #fff;
+}
+
+.my-name {
+  color: #fff;
+}
