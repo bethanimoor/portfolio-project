@@ -29,12 +29,12 @@ a {
   color: #fff;
 }
 
-a:hover {
+a:visited {
   color: var(--primary-text-color);
 }
 
-a:visited {
-  color: var(--primary-text-color);
+a:hover {
+  color: #fff;
 }
 
 .taskbar {
@@ -48,6 +48,11 @@ a:visited {
   color: #fff;
 }
 
+.work-link {
+  padding-top: 25px;
+  color: var(--primary-text-color);
+}
+
 .my-name {
   color: #fff;
 }
@@ -55,8 +60,4 @@ a:visited {
 .arrow {
   position: relative;
   bottom: 3px;
-}
-
-.work-link {
-  padding-top: 25px;
 }
