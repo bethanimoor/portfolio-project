@@ -18,15 +18,21 @@
 }
 
 .section img {
+  display: inline;
   float: right;
-  width: 500px;
-  padding: 20px;
+  width: 300px;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -78px;
+  margin-right: 15px;
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
   color: var(--primary-text-color);
+  font-weight: 600;
 }
 
 h1 {
@@ -47,8 +53,14 @@ h3 {
   color: var(--primary-text-color);
 }
 
+h4 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
 .section p {
   color: var(--primary-text-color);
+  margin: auto;
 }
 
 a {
@@ -84,4 +96,8 @@ a:hover {
 .arrow {
   position: relative;
   bottom: 3px;
+}
+
+.section button {
+  padding-left: 0;
 }
