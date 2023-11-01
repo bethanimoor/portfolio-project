@@ -13,6 +13,17 @@
   height: 500px;
 }
 
+.section {
+  padding: 65px;
+}
+
+.section img {
+  float: right;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
 h1,
 h2 {
   color: var(--primary-text-color);
@@ -21,13 +32,23 @@ h2 {
 h1 {
   padding-top: 60px;
   padding-left: 65px;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 50px;
   padding-left: 65px;
   font-size: 50px;
+}
+
+h3 {
+  font-size: 50px;
+  padding-bottom: 30px;
+  color: var(--primary-text-color);
+}
+
+.section p {
+  color: var(--primary-text-color);
 }
 
 a {
