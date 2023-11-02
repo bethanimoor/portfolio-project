@@ -99,4 +99,8 @@ h4 {
   .section p {
     margin-bottom: 20px;
   }
+  .nav-gradient {
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    opacity: 0.7;
+  }
 }
