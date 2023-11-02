@@ -81,7 +81,7 @@ h4 {
   font-family: sans-serif;
   color: #fff;
   z-index: 1;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(8px);
 }
 
 .skills {
