@@ -59,7 +59,7 @@ h4 {
   bottom: 3px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 40px;
   }
