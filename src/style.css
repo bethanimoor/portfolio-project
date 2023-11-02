@@ -10,8 +10,9 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.section {
-  padding: 65px;
+.header a {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .section img {
@@ -28,12 +29,12 @@ h4 {
 }
 
 h1 {
+  padding-top: 200px;
   font-size: 50px;
-  padding: 200px 0 0 100px;
 }
 
 .work-link {
-  padding: 20px 100px;
+  padding-top: 50px;
   color: var(--primary-text-color);
 }
 
@@ -47,25 +48,6 @@ h4 {
 
 .section p {
   color: var(--primary-text-color);
-  margin: auto;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-a:visited {
-  color: var(--primary-text-color);
-}
-
-a:hover {
-  color: #fff;
-}
-
-.taskbar-link {
-  padding: 0px 15px 50px;
-  color: #fff;
 }
 
 .arrow {
