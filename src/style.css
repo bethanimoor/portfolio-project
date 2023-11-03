@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   font-size: 50px;
+  font-family: var(--font-family);
 }
 
 h3 {
@@ -29,10 +30,7 @@ h3 {
   padding-top: 20px;
   padding-bottom: 20px;
   color: var(--primary-text-color);
-}
-
-h4 {
-  font-size: 30px;
+  font-family: var(--font-family);
 }
 
 .header {
@@ -42,7 +40,6 @@ h4 {
 }
 
 .header a {
-  font-family: var(--font-family);
   color: var(--primary-text-color);
   text-decoration: none;
 }
@@ -53,10 +50,12 @@ h4 {
   left: 20px;
   width: 325px;
   height: 450px;
+  border: 8px solid #7fa99b;
 }
 
 .my-name {
   color: #fff;
+  font-size: px;
 }
 
 .work-link {
@@ -75,7 +74,8 @@ h4 {
 
 .projects {
   background-color: var(--primary-background-color);
-  height: 500px;
+  width: 100%;
+  height: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -83,6 +83,8 @@ h4 {
   font-size: 20px;
   font-family: sans-serif;
   color: #fff;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  opacity: 0.7;
 }
 
 .skills {
@@ -97,12 +99,16 @@ h4 {
   h2,
   h3 {
     margin: 0;
+    font-size: 30px;
+  }
+  h3 {
+    padding-top: 0;
+    font-size: 25px;
   }
   .section p {
     margin-bottom: 20px;
   }
-  .nav-gradient {
-    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    opacity: 0.7;
+  .skills {
+    margin-top: 20px;
   }
 }
