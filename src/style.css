@@ -8,8 +8,7 @@
 }
 
 h1,
-h2,
-h4 {
+h2 {
   color: var(--primary-text-color);
   font-size: 50px;
 }
@@ -31,6 +30,12 @@ h3 {
   padding-bottom: 20px;
   color: var(--primary-text-color);
   font-family: var(--font-family);
+}
+
+h4 {
+  font-family: var(--font-family);
+  color: var(--primary-text-color);
+  font-size: 35px;
 }
 
 .header {
@@ -120,6 +125,7 @@ h3 {
     padding-top: 0;
     font-size: 25px;
   }
+
   .section p {
     margin-bottom: 20px;
   }
