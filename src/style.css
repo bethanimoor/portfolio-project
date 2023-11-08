@@ -94,7 +94,7 @@ h3 {
 
 .button-colour {
   background-color: var(--primary-background-color) !important;
- border: none;
+  border: none;
 }
 
 .footer {
@@ -125,5 +125,9 @@ h3 {
   }
   .skills {
     margin-top: 20px;
+  }
+  .font-links {
+    position: relative;
+    bottom: 45px;
   }
 }
